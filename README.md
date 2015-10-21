@@ -12,7 +12,7 @@ Run the application:
 mvn spring-boot:run
 ```
 
-*When not specifying spring profile, the system use **local** profile by default.*
+*When not specifying spring profile, the system use* **local** *profile by default.*
 
 Change spring profile:
 ```sh
