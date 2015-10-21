@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @ControllerAdvice
 public class ErrorHandler {
     /**
-     * Handle exception in Service Layer
+     * Handling from all exception
      * @param e Exception
      * @return Custom JSON Envelope Error
      */

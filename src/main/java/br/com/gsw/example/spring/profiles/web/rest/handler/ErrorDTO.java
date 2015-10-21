@@ -1,7 +1,5 @@
 package br.com.gsw.example.spring.profiles.web.rest.handler;
 
-import javax.xml.bind.annotation.XmlElement;
-
 public class ErrorDTO {
     private String message;
 
@@ -16,7 +14,6 @@ public class ErrorDTO {
         return message;
     }
 
-    @XmlElement
     public void setMessage(final String message) {
         this.message = message;
     }
