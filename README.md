@@ -19,7 +19,7 @@ Change spring profile:
 mvn spring-boot:run -Dspring.profiles.active=dev
 ```
 
-### Deploy the Application:
+### Generate the Package:
 
 Generate package:
 ```sh
