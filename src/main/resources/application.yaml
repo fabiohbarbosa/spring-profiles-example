@@ -20,9 +20,9 @@ spring:
 
   datasource:
     driverClassName: oracle.jdbc.driver.OracleDriver
-    url: jdbc:oracle:thin:@ora-ts11.sjk.emb:1521:ts11
-    username: erm_user
-    password: erm
+    url: jdbc:oracle:thin:@integration.test.com:1521:dev
+    username: dev
+    password: test
   jpa:
     database: oracle
     show-sql: true
